@@ -1,0 +1,17 @@
+{
+  "name": "cryptojs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ilushenko Vladimir",
+  "license": "ISC",
+  "dependencies": {
+    "ccxt": "^1.92.47",
+    "winston": "^3.8.1"
+  }
+}
